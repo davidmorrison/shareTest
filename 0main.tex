@@ -1,0 +1,155 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                              %
+%           sPHENIX Conceptual Design Report -- 2015           %
+%                                                              %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%  sPHENIX CDR       Editor: Brant Johnson
+%%  Front Page                                  Brant           1p
+%%  Table of Contents                           Brant           2p
+%% exec_summ      Executive Summary            John, Ed, Brant 3p
+%% 1 sci_obj_perf   Scientific Objective and Performance  John Harris 20 p
+%% ================= Project Scope: Conceptual Design
+%% 2 magnet              SC-Magnet               Kin, Achim      20p
+%% 3 tracker             Tracker                 Ed, Yasuyuki,Itaru, Tom, Takao  30p
+%% 4 emcal               EMCal                   Sean, Craig, Anne     20p
+%% 5 hcal                HCal                    John, John, Edward    30p
+%% 6 cal_electronics Calorimeter Electronics     Eric, Chi       20p
+%% 7 daq_trig    DAQ/Trigger                     Martin, Eric    10p
+%% 8 infrastruct Infrastructure                  Paul, Don       10p
+%% 9 install_integ       Installation and Integration    Don, Dave     10p
+%% 10 proj_mgmt   Project Management              Ed, Jim         10p
+%%
+%%  List of Tables                      Brant           2p
+%%  List of Figures                     Brant           2p
+%%  refs.bib    References              Brant           5p
+
+\documentclass[12pt,twoside,notitlepage]{book}
+
+%%%%%%%%%%%%%%%%%%  header  (packages, 
+\input{header}
+
+\begin{document} 
+%\linenumbers
+\frontmatter
+\pagestyle{empty}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% title page
+\input{title_page}
+
+\cleardoublepage
+\pagestyle{fancy}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% exex_summ
+\chapter*{Executive Summary}
+\label{exec_summ}
+\input{exec_summ/exec_summ}
+
+\setcounter{page}{1}
+
+\cleardoublepage
+
+\resetlinenumber
+
+\tableofcontents
+\cleardoublepage
+
+\mainmatter
+
+\renewcommand{\thepage}{\arabic{page}}
+\setcounter{chapter}{0}
+\setcounter{page}{1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 1 sci_obj_perf
+\chapter{Scientific Objective and Performance}
+\label{sci_obj_perf}
+\input{sci_obj_perf/sci_obj_perf}
+This is a test by JWH!
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2 magnet
+\chapter{Super Conducting Magnet}
+\label{magnet}
+\input{magnet/magnet}
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 3 tracker
+\chapter{Tracker}
+\label{tracker}
+\input{tracker/tracker}
+\section{Si Tracker}
+\section{pixel/TPC Tracker}
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 4 emcal
+\chapter{Electromagnetic Calorimeter}
+\label{emcal}
+\input{emcal/emcal}
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 5 hacal
+\chapter{Hadronic Calorimeter}
+\label{hcal}
+\input{hcal/hcal}
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 6 cal_electronics
+\chapter{Calorimeter Electronics}
+\label{cal_electronics}
+\input{cal_electronics/cal_electronics}
+
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 7 daq_trig
+\chapter{Data Acquisition and Trigger}
+\label{daq_trig}
+\input{daq_trig/daq_trig}
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 8 infrastruct
+\chapter{Infrastructure}
+\label{infrastruct}
+\input{infrastruct/infrastruct}
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 9 install_integ
+\chapter{Installation and Integration}
+\label{install_integ}
+\input{install_integ/install_integ}
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 10 proj_mgmt
+\chapter{Project Management}
+\label{proj_mgmt}
+\input{proj_mgmt/proj_mgmt}
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 10.1 proj_org
+%\section{Project Oranization}
+%\label{proj_org}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 10.2 wbs
+%\section{Work Breakdown Structure}
+%\label{wbs}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 10.3 cost
+%\section{Cost Range}
+%\label{cost}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 10.4 mstones_sched
+%\section{Milestones and Schedule}
+%\label{mstones_sched}
+
+\cleardoublepage
+
+\appendix
+ 
+
+\cleardoublepage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Tables
+\phantomsection
+\addcontentsline{toc}{chapter}{List of Tables}
+\listoftables
+
+\cleardoublepage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Figures
+\phantomsection
+\addcontentsline{toc}{chapter}{List of Figures}
+\listoffigures
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% References
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{References}
+
+\bibliographystyle{unsrturl}
+\bibliography{refs}
+
+\end{document}  %%%%%%%%%%%%%%%%% End Document
