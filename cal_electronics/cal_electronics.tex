@@ -1,7 +1,37 @@
 %% cal_electronics.tex  Calorimeter  Electronics Eric, Chi 20p    
+The sPHENIX reference design for electronics 
 
- 
-Text, tables, and figure calls go here.
+\section{Optical Sensors}
+
+
+\subsection{Device Characteristics}
+For both the electromagnetic and hadronic calorimeters, we are
+currently considering as sensors 3\,mm$\times$3\,mm silicon photomultipliers
+(SiPMs), such as the Hamamatsu S10362-33-25C MultiPixel Photon
+Counters (MPPC).  These devices have 40,000 pixels, each
+15\,$\mu$m$\times$ 15\,$\mu$m. Any SiPM device will have an intrinsic
+limitation on its dynamic range due to the finite number of pixels,
+and with over 40K pixels, this device has a useful dynamic range of
+over 10$^4$.  The saturation at the upper end of the range is
+correctable up to the point where all pixels have fired.  The photon
+detection efficiency is $\sim25\%$ and it should therefore be possible
+to adjust the light level to the SiPM using a mixer to place the full
+energy range for each tower ($\sim$ 5\,MeV--50\,GeV) in its useful
+operating range. For example, if the light levels were adjusted to
+give 10,000 photoelectrons for 50\,GeV, this would require only 200 photoelectrons/GeV,
+which should be easily achieved given the light level from
+the fibers entering the mixer.
+
+\subsection{Neutron Radiation Effects}
+
+\section{Front End Analog Electonics}
+\subsection{Pre-Amplifiers}
+\subsection{Controller Boards}
+\section{Digitizers Electronics}
+\subsection{Digitizer Boards}
+\subsection{XMIT Boards}
+\subsection{Controllers}
+
  
 Once you cite references, delete this text being used
 to avoid a BibTeX error~\cite{Adare:2010ux}.

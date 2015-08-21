@@ -39,8 +39,6 @@ system is intrinsically non-perturbative.  In addition, the many-body
 collective effects in the \qgp and their temperature dependence near
 $T_{c}$ are not yet well understood.
 
-INSERT FIGURE FROM NSAC LRP SIDEBAR WITH COMPARISON OF ARPES PROBES FOR HIGH TC SUPERCONDUCTORS AND SPHENIX ON QGP.   -- ONE OPTION (jln).
-
 The right panel of Figure~\ref{fig:lattice} shows the deviation from
 the Stefan-Boltzmann limit of Lattice QCD results for the pressure
 normalized by $1/T^{4}$.  The Stefan-Boltzmann limit holds for a
@@ -83,6 +81,14 @@ initial virtualities thus probing the important longer distance scales in the me
 Measurements of the three Upsilon states that span a large range in binding energy 
 and size are an excellent complement to the jet program, with precision required at 
 both RHIC and the LHC.
+
+\begin{figure}[!hbt]
+ \begin{center}
+   \raisebox{4pt}{\includegraphics[width=0.7\linewidth]{figs/figure_nsac_lrp_sidebar1}}
+    \caption[Probing Systems]{Probing systems example....
+    \label{fig:sidebar1}}
+ \end{center}
+\end{figure}
 
 Continued developments in techniques for jet reconstruction in the
 environment of a heavy ion collision have allowed the LHC experiments
@@ -236,6 +242,14 @@ the \qgp, the length scale probed in the medium, and the virtuality of
 the hard process as shown schematically in Figure~\ref{fig:threeaxes}.
 In the following three sections we detail the physics of each axis.
 
+\begin{figure}[!hbt]
+ \begin{center}
+   \raisebox{4pt}{\includegraphics[width=0.7\linewidth]{figs/figure_nsac_lrp_sidebar2}}
+    \caption[Virtuality and Scale]{Virtuality and Scales - reference NSAC LRP.
+    \label{fig:sidebar2}}
+ \end{center}
+\end{figure}
+
 \section{What is the temperature dependence of the QGP?}
 \label{sec:temperature_dependence}
 
@@ -268,7 +282,7 @@ description in terms of normal and superfluid components.
       helium. The cusp for Helium corresponds to the case at the
       critical pressure.  (right) Calculation of hot QCD matter
       (quark-gluon plasma) for a weakly coupled system.  Dashed lines
-      show the scale dependence of the perturbative calculation.}
+      show the scale dependence of the perturbative calculation.  WOULD BE NICE TO HAVE THE RIGHT PANEL WITH THE QGP THEORY BAND -- WHICH USED TO BE IN A DIFFERENT FIGURE (NOW REMOVED)}
     \label{fig:etaovers_1}
  \end{center}
 \end{figure}
@@ -440,47 +454,52 @@ of $\hat{q}$ and then ask deeper additional questions about the \qgp and its und
   \centering
   \raisebox{0.2cm}{\includegraphics[width=0.49\linewidth]{figs/figure_qhatconstraint}}
   \hfill
-  \includegraphics[width=0.49\linewidth]{figs/ntce_renk}
+  \includegraphics[width=0.49\linewidth]{figs/figure_cujet_qhat}
   \caption[Calculations of $\hat{q}/T^{3}$ vs temperature, constrained
   by RHIC and LHC \raa data --- including near $T_C$ enhancement
   scenarios of $\hat{q}/T^{3}$]{(left) Calculations from four jet
     quenching frameworks constrained by RHIC and LHC \raa data
     with results for $\hat{q}/T^{3}$ as a function of temperature.
     Details of the calculation are given in
-    Ref.~\cite{JETCollaboration:QhatConstraint}. (right) Near $T_C$
-    enhancement scenarios of $\hat{q}/T^{3}$ considered in
-    Ref.~~\cite{Renk:2014nwa}.}
+    Ref.~\cite{JETCollaboration:QhatConstraint}. (right)
+    Results from calculations within CUJET 3.0 with magnetic monopole
+excitations that result in enhanced coupling near $T_{c}$.   Plotted are the constraints on $\hat{q}/T^{3}$ 
+as a function of temperature as shown in Ref.~~\cite{Xu:2014tda}
+%    Near $T_C$
+%    enhancement scenarios of $\hat{q}/T^{3}$ considered in
+%    Ref.~~\cite{Renk:2014nwa}.
+}
   \label{fig:qhatconstraint}
 \end{figure}
 
-It is notable that a number of calculations favor an increased coupling strength near the transition temperature.  Shown in the right panel of Figure~\ref{fig:qhatconstraint} are a set of scenarios
-considered by Renk in Ref.~\cite{Renk:2014nwa}.   This paper states that ``Comparing weak coupling scenarios with data, 
+It is notable that a number of calculations favor an increased coupling strength near the transition temperature.  
+%Shown in the right panel of Figure~\ref{fig:qhatconstraint} are a set of scenarios considered by Renk in 
+Ref.~\cite{Renk:2014nwa} states that ``Comparing weak coupling scenarios with data, 
 NTC [near $T_{C}$ enhancement] is favored.   An answer to this question will require a systematic picture 
 across several different high \pt observables.''   
-
 In Ref.~\cite{Liao:2008dk}, Liao and Shuryak use 
 RHIC measurements of single hadron suppression and azimuthal
 anisotropy to infer that ``the jet quenching is a few times stronger
-near $T_c$ relative to the quark-gluon plasma at $T > T_c$.''  This
-enhancement of $\hat{q}$ is shown in Figure~\ref{fig:qhatmap} (right panel)
-and is the result of color magnetic monopole excitations in the plasma
-near $T_{c}$.   
+near $T_c$ relative to the quark-gluon plasma at $T > T_c$.''  
+%This enhancement of $\hat{q}$ is shown in Figure~\ref{fig:qhatmap} (right panel)
+%and is the result of color magnetic monopole excitations in the plasma
+%near $T_{c}$.   
 
 Most recently this strong coupling picture with color magnetic monopole excitations has been
 implemented within CUJET 3.0 for a broader comparison with experimental observables and
-previous theory calculations~\cite{Xu:2014tda}.   Shown in Figure~\ref{fig:cujet_monopole} are
+previous theory calculations~\cite{Xu:2014tda}.   Shown in Figure~\ref{fig:qhatconstraint} (right panel) are
 results from their constrained RHIC and LHC data fit for the temperature dependence of the scaled
 quenching power $\hat{q}/T^{3}$.
 
-\begin{figure}[ht]
-  \centering
-  \raisebox{0.2cm}{\includegraphics[width=0.68\linewidth]{figs/figure_cujet_qhat}}
-  \caption[Magnetic Monopole/CUJET 3.0 result for $\hat{q}/T^{3}$ vs temperature, constrained
-  by RHIC and LHC \raa data]{Results from calculations within CUJET 3.0 with magnetic monopole
-excitations that result in enhanced coupling near $T_{c}$.   Plotted are the constraints on $\hat{q}/T^{3}$ 
-as a function of temperature as shown in Ref.~~\cite{Xu:2014tda}.}
-  \label{fig:cujet_monopole}
-\end{figure}
+%\begin{figure}[ht]
+%  \centering
+%  \raisebox{0.2cm}{\includegraphics[width=0.68\linewidth]{figs/figure_cujet_qhat}}
+%  \caption[Magnetic Monopole/CUJET 3.0 result for $\hat{q}/T^{3}$ vs temperature, constrained
+%  by RHIC and LHC \raa data]{Results from calculations within CUJET 3.0 %with magnetic monopole
+%excitations that result in enhanced coupling near $T_{c}$.   Plotted are %the constraints on $\hat{q}/T^{3}$ 
+%as a function of temperature as shown in Ref.~~\cite{Xu:2014tda}.}
+%  \label{fig:cujet_monopole}
+%\end{figure}
 
 Within the jet quenching model WHDG~\cite{Horowitz:2011gd}, the authors 
 constrain $\hat{q}$ by the PHENIX $\pi^{0}$ nuclear modification factor.  
@@ -761,12 +780,14 @@ vacuum through gluon splitting down to the scale of hadronization.  In
 heavy ion collisions, the vacuum virtuality evolution is interrupted
 at some scale by scattering with the medium partons which increase the
 virtuality with respect to the vacuum evolution.
-Figure~\ref{fig:virtualityevolution} shows the expected evolution of
+Figure~\ref{fig:sidebar2} (upper left) shows the expected evolution of
 virtuality in vacuum, from medium contributions, and combined for a
-quark-gluon plasma at $T_0 = 300$~MeV with the traversal of a 30~GeV
-parton (left) and at $T_{0}=390$~MeV with the traversal of a 200~GeV
-parton (right)~\cite{Muller:usersmeeting,Muller:2010pm}.  If this
-picture is borne out, it ``means that the very energetic parton [in
+quark-gluon plasma.
+
+%at $T_0 = 300$~MeV with the traversal of a 30~GeV
+%parton (left) and at $T_{0}=390$~MeV with the traversal of a 200~GeV
+%parton (right)~\cite{Muller:usersmeeting,Muller:2010pm}.  
+If this picture is borne out, it ``means that the very energetic parton [in
 the right picture] hardly notices the medium for the first 3--4 fm of
 its path length~\cite{Muller:2010pm}.'' Spanning the largest possible
 range of virtuality (initial hard process $Q^{2}$) is very important,
@@ -774,21 +795,21 @@ but complementary measurements at both RHIC and LHC of produced jets
 at the same virtuality (around 50~GeV) will test the interplay between
 the vacuum shower and medium scattering contributions.
 
-\begin{figure}[!hb]
- \begin{center}
-    \includegraphics[trim = 2 2 2 2, clip, width=0.95\linewidth]{figs/figure_physicscase_virtualityevolution}
-    \caption[Jet virtuality evolution in medium at RHIC and
-    LHC]{\label{fig:virtualityevolution}Jet virtuality evolution in
-      medium at RHIC (left) and LHC (right).  Vacuum contributions to
-      virtuality (blue dashed lines) decrease with time and medium
-      induced contributions (red dashed lines) increase as the parton
-      scatters in the medium.  The total virtuality (blue solid lines)
-      is the quadrature sum of the two contributions.  At RHIC the
-      medium induced virtuality dominates by 2.5\,fm/c while at the
-      LHC the medium term does not dominate until 4.5\,fm/c.  From
-      Ref.~\protect\cite{Muller:usersmeeting}{}.}
- \end{center}
-\end{figure}
+%\begin{figure}[!hb]
+% \begin{center}
+%    \includegraphics[trim = 2 2 2 2, clip, width=0.95\linewidth]{figs/figure_physicscase_virtualityevolution}
+%    \caption[Jet virtuality evolution in medium at RHIC and
+%    LHC]{\label{fig:virtualityevolution}Jet virtuality evolution in
+%      medium at RHIC (left) and LHC (right).  Vacuum contributions to
+%      virtuality (blue dashed lines) decrease with time and medium
+%      induced contributions (red dashed lines) increase as the parton
+%      scatters in the medium.  The total virtuality (blue solid lines)
+%      is the quadrature sum of the two contributions.  At RHIC the
+%      medium induced virtuality dominates by 2.5\,fm/c while at the
+%      LHC the medium term does not dominate until 4.5\,fm/c.  From
+%      Ref.~\protect\cite{Muller:usersmeeting}{}.}
+% \end{center}
+%\end{figure}
 
 In some theoretical frameworks --- for example
 Refs~\cite{Renk:2013rla,Majumder:2011uk,Majumder:2014gda} --- the
@@ -858,39 +879,39 @@ charged hadrons over this \pt range.
 % \end{center}
 %\end{figure}
 
-To convey the scale probed and virtuality evolution differences at
-RHIC and the LHC, we show the off-shellness of the initial hard
-scattered parton virtuality in units of 1/fm as a function of the local temperature of
-the QGP medium where the parton resides in Figure~\ref{fig:magic2}.  The calculation incorporates
-the vacuum virtuality evolution which falls off quickly with time and
-the medium scattering contribution that kicks the virtuality back up.
-We incorporate the full time evolution of pre-equilibrium dynamics,
-viscous hydrodynamics, and hadron cascade from
-Ref.~\cite{Habich:2014jna} to map the time of the parton evolution to
-the local temperature.  The medium virtuality contribution also scales
-with the local temperature. The red (black) curves are for
-different initial parton energies in the RHIC (LHC) medium.  The
-thicker line regions highlight where the medium virtuality has a
-substantial influence on the parton splitting.  It is notable that
-highest energy partons at the LHC, of order 1 TeV, are always
-dominated by the initial vacuum virtuality evolution (for more than 10
-fm/c).  In contrast, the lower energy jets and the RHIC medium
-evolution have the largest influence and map out a unique part of this
-microscope resolving power and temperature of the \qgp.
+%To convey the scale probed and virtuality evolution differences at
+%RHIC and the LHC, we show the off-shellness of the initial hard
+%scattered parton virtuality in units of 1/fm as a function of the local %temperature of
+%the QGP medium where the parton resides in Figure~\ref{fig:magic2}.  The %calculation incorporates
+%the vacuum virtuality evolution which falls off quickly with time and
+%the medium scattering contribution that kicks the virtuality back up.
+%We incorporate the full time evolution of pre-equilibrium dynamics,
+%viscous hydrodynamics, and hadron cascade from
+%Ref.~\cite{Habich:2014jna} to map the time of the parton evolution to
+%the local temperature.  The medium virtuality contribution also scales
+%with the local temperature. The red (black) curves are for
+%different initial parton energies in the RHIC (LHC) medium.  The
+%thicker line regions highlight where the medium virtuality has a
+%substantial influence on the parton splitting.  It is notable that
+%highest energy partons at the LHC, of order 1 TeV, are always
+%dominated by the initial vacuum virtuality evolution (for more than 10
+%fm/c).  In contrast, the lower energy jets and the RHIC medium
+%evolution have the largest influence and map out a unique part of this
+%microscope resolving power and temperature of the \qgp.
 
-THE FIGURE BELOW MIGHT BE REMOVED AND JUST REFER TO THE VIRTUALITY EVOLUTION FIGURE THAT WAS PART OF THE NSAC LRP SIDEBAR.
+%THE FIGURE BELOW MIGHT BE REMOVED AND JUST REFER TO THE VIRTUALITY EVOLUTION FIGURE THAT WAS PART OF THE NSAC LRP SIDEBAR.
 
-\begin{figure}[!hbt]
- \begin{center}
-   \includegraphics[width=0.95\linewidth]{figs/figure_nagle_jetvirtuality}
-   \caption[Scale probed in the medium via high energy partons as a
-   function of the local temperature in the medium]{Scale probed in
-     the medium in [1/fm] via high energy partons as a function of the
-     local temperature in the medium.  The red (black) curves are for
-     different initial parton energies in the RHIC (LHC) medium.}
-  \label{fig:magic2}
- \end{center}
-\end{figure}
+%\begin{figure}[!hbt]
+% \begin{center}
+%   \includegraphics[width=0.95\linewidth]{figs/figure_nagle_jetvirtuality}
+%   \caption[Scale probed in the medium via high energy partons as a
+%   function of the local temperature in the medium]{Scale probed in
+%     the medium in [1/fm] via high energy partons as a function of the
+%     local temperature in the medium.  The red (black) curves are for
+%     different initial parton energies in the RHIC (LHC) medium.}
+%  \label{fig:magic2}
+% \end{center}
+%\end{figure}
 
 %\clearpage
 
@@ -1984,10 +2005,16 @@ from the LHC experiments, sPHENIX data will provide the required precision to
 discriminate models of breakup in the dense matter and the length scale
 probed in the medium.
 
-NEED TO MOVE THE MONEY UPSILON PLOT (OR PLOTS) WITH RAA AND PROJECTED UNCERTAINTIES HERE...
+\begin{figure}
+  \begin{center}
+    \includegraphics[width=0.6\textwidth]{figs/upsilon_raa_10pc_bins_100Bevts}
+  \end{center}
+  \caption{Upsilon money plot}
+\end{figure}
 
-\section{Beauty Quarkonia in proton-nucleus collisions}
-\label{sec:pA_quarkonia}
+
+%\section{Beauty Quarkonia in proton-nucleus collisions}
+%\label{sec:pA_quarkonia}
 
 Measurements of quarkonia production in proton-nucleus collisions have
 long been considered necessary to establish a cold nuclear matter
@@ -2011,51 +2038,51 @@ collisions at RHIC~\cite{Adare:2013piz} has raised questions about the
 longstanding assumption that $p(d)$$+$A collisions are dominated by cold
 nuclear matter effects. For quarkonia, it raises the obvious question:
 does the small hot spot produced in the $p(d)$$+$A collision affect the
-quarkonia yield?
-
-Recent measurements of the modification of quarkonia excited states in
+quarkonia yield?  Recent measurements of the modification of quarkonia excited states in
 $p(d)$$+$A collisions have produced unexpected and puzzling
-results. An example is shown in Figure~\ref{fig:psiprime_rhic_lhc},
-where the centrality dependence of the $\psi^{\prime}$ modification in
-$p(d)$$+$A collisions is shown for data measured at midrapidity at
-$\sqrt{s_{NN}}=200$~GeV by PHENIX~\cite{Adare:2013ezl}, and
-preliminary data at forward and backward rapidity at
-$\sqrt{s_{NN}}=5.02$~TeV from ALICE. The suppression versus \ncoll~is
-strikingly similar in all three cases, despite the large difference in
-collision energy between the PHENIX and ALICE data, and the large
-range of rapidities spanned by the three data sets. In two of the
-cases --- PHENIX at midrapidity and ALICE at backward rapidity --- the
-$\psi^{\prime}$ is much more strongly suppressed than the \jpsi. In
-the third case --- ALICE at forward rapidity --- the \jpsi~ and
-$\psi^{\prime}$ suppressions are much closer to each other.
+results.    PERHAPS SHOW A PROJECTION FIGURE HERE FOR P+A...
 
-\begin{figure}
-  \begin{center}
-    \includegraphics[width=0.6\textwidth]{figs/psiprime_PHENIX_ALICE_vs_Ncoll}
-  \end{center}
-  \caption{\label{fig:psiprime_rhic_lhc} Comparison of $\psi'$ nuclear
-    modification measured by PHENIX and ALICE, showing very similar
-    suppression at RHIC and LHC energies. }
-\end{figure}
+%An example is shown in Figure~\ref{fig:psiprime_rhic_lhc},
+%where the centrality dependence of the $\psi^{\prime}$ modification in
+%$p(d)$$+$A collisions is shown for data measured at midrapidity at
+%$\sqrt{s_{NN}}=200$~GeV by PHENIX~\cite{Adare:2013ezl}, and
+%preliminary data at forward and backward rapidity at
+%$\sqrt{s_{NN}}=5.02$~TeV from ALICE. The suppression versus \ncoll~is
+%strikingly similar in all three cases, despite the large difference in
+%collision energy between the PHENIX and ALICE data, and the large
+%range of rapidities spanned by the three data sets. In two of the
+%cases --- PHENIX at midrapidity and ALICE at backward rapidity --- the
+%$\psi^{\prime}$ is much more strongly suppressed than the \jpsi. In
+%the third case --- ALICE at forward rapidity --- the \jpsi~ and
+%$\psi^{\prime}$ suppressions are much closer to each other.
 
-The strong differential suppression between the $\psi^{\prime}$ and
-\jpsi~ can not be understood as an effect of breakup by collisions
-with nucleons in the target, because the time scale of the nuclear
-crossing in all of these collisions is too short for the size
-difference between the fully formed mesons to become
-important. Similarly, shadowing and current models of energy loss in
-cold nuclear matter lead to the expectation of similar modification in
-$p(d)+$A collisions for the \jpsi~ and $\psi^{\prime}$ (see for
-example the detailed discussion in~\cite{Ferreiro:2012mm}).  So
-despite the fact that models which combine those effects have been
-reasonably successful in describing \jpsi~ data, one must look
-elsewhere for an explanation of the strong $\psi^{\prime}$
-suppression. A possibility is breakup of the mesons by interactions
-with comoving matter (which could be partonic or hadronic) produced in
-the collision~\cite{Capella:1996va}. Since the time scale for
-interactions with comoving matter is longer than the meson formation
-time, this might produce stronger suppression of larger, more weakly
-bound states.
+%\begin{figure}
+%  \begin{center}
+%    \includegraphics[width=0.6\textwidth]{figs/psiprime_PHENIX_ALICE_vs_Ncoll}
+%  \end{center}
+%  \caption{\label{fig:psiprime_rhic_lhc} Comparison of $\psi'$ nuclear
+%    modification measured by PHENIX and ALICE, showing very similar
+%    suppression at RHIC and LHC energies. }
+%\end{figure}
+
+%The strong differential suppression between the $\psi^{\prime}$ and
+%\jpsi~ can not be understood as an effect of breakup by collisions
+%with nucleons in the target, because the time scale of the nuclear
+%crossing in all of these collisions is too short for the size
+%difference between the fully formed mesons to become
+%important. Similarly, shadowing and current models of energy loss in
+%cold nuclear matter lead to the expectation of similar modification in
+%$p(d)+$A collisions for the \jpsi~ and $\psi^{\prime}$ (see for
+%example the detailed discussion in~\cite{Ferreiro:2012mm}).  So
+%despite the fact that models which combine those effects have been
+%reasonably successful in describing \jpsi~ data, one must look
+%elsewhere for an explanation of the strong $\psi^{\prime}$
+%suppression. A possibility is breakup of the mesons by interactions
+%with comoving matter (which could be partonic or hadronic) produced in
+%the collision~\cite{Capella:1996va}. Since the time scale for
+%interactions with comoving matter is longer than the meson formation
+%time, this might produce stronger suppression of larger, more weakly
+%bound states.
 
 The situation has become more interesting with the release of data from CMS on production of 
 Upsilon excited states in $p+$Pb collisions. They find that the $\Upsilon(2S)$ to $\Upsilon(1S)$ ratio
@@ -2065,23 +2092,23 @@ larger in the most central collisions, but data showing the
 centrality dependence are not released yet.
 
 A comprehensive $p+$A collision program with sPHENIX will provide Upsilon measurements in $p+$Au
-collisions at RHIC energy with all three states resolved from each other. This data set will 
-constrain theoretical efforts to understand the physics of $p+$A collisions in the following ways:
+collisions at RHIC energy with all three states resolved from each other. 
 
-\begin{itemize}
-\item Provide very precise measurements of the $\Upsilon(1S)$ modification at RHIC energies over 2 units
-of rapidity and a broad \pt range that would complement the very precise data at LHC energies that will be 
-available by 2023. 
-These data for the $\Upsilon(1S)$ (binding energy 1.1~GeV) will, with the LHC data, constrain models of 
-shadowing and partonic energy loss in cold nuclear matter.
-\item Provide precise measurements at RHIC energies of the modification for the $\Upsilon(2S)$ and 
-$\Upsilon(3S)$ states (binding 
-energies of 540 and 200 MeV, respectively). Combined with precise data at LHC energies, these data 
-will constrain models that 
-attempt to explain the differential suppression of these excited states, as well as that of the $\psi^\prime$. 
-\end{itemize}
+%This data set will 
+%constrain theoretical efforts to understand the physics of $p+$A collisions %in the following ways:
 
-
+%\begin{itemize}
+%\item Provide very precise measurements of the $\Upsilon(1S)$ modification %at RHIC energies over 2 units
+%of rapidity and a broad \pt range that would complement the very precise %data at LHC energies that will be 
+%available by 2023. 
+%These data for the $\Upsilon(1S)$ (binding energy 1.1~GeV) will, with the %LHC data, constrain models of 
+%shadowing and partonic energy loss in cold nuclear matter.
+%\item Provide precise measurements at RHIC energies of the modification for %the $\Upsilon(2S)$ and 
+%$\Upsilon(3S)$ states (binding 
+%energies of 540 and 200 MeV, respectively). Combined with precise data at %LHC energies, these data 
+%will constrain models that 
+%attempt to explain the differential suppression of these excited states, as %well as that of the $\psi^\prime$. 
+%\end{itemize}
 
 \section{Rates and Physics Reach}
 \label{sec:physicscasesummary}
@@ -2217,22 +2244,7 @@ jets, the data could extend to $80$~GeV/c, four times the range of the
 current PHENIX $\pi^0$ measurements) and will allow access to new
 measurements entirely (such as fully reconstructed $b$-tagged jets).
 
-NEW VERSION OF THIS FIGURE IS IN THE NP LRP (PROJECTIONS THE SAME, JUST FORMAT UPDATED)
-
-%The bottom panel of Figure~\ref{fig:guntherplot}, adapted from slides
-%shown by G. Roland at the QCD Town Meeting in September 2014, shows
-%the statistical reach in $p_\mathrm{T}$ for single inclusive measurements
-%(i.e. the $R_\mathrm{AA}$) and for ``jet+$X$'' correlation
-%measurements. Although there are some $p_\mathrm{T}$ ranges in common 
-%between present day measurements at RHIC and the LHC, it can be seen
-%that the higher kinematic ranges accessed by sPHENIX (referred to in
-%the figure as ``RHIC Tomorrow'') will have substantially more overlap
-%with current and future LHC data in a wide variety of channels. Thus
-%sPHENIX in tandem with the LHC experiments will allow for a detailed
-%set of measurements of the same observables within the same kinematic
-%ranges.
-
-\begin{figure}[p]
+\begin{figure}[]
   \begin{center}
 %    \includegraphics[width=0.8\textwidth]{figs/KinematicReach_Stripes_Today}
 %    \hfill
@@ -2259,8 +2271,3 @@ NEW VERSION OF THIS FIGURE IS IN THE NP LRP (PROJECTIONS THE SAME, JUST FORMAT U
     %Meeting at Temple University.  
     }
 \end{figure}
-
-% LocalWords:  MeV quasiparticle de Broglie gauge Kovtun Starinets KSS Hooft
-% LocalWords:  supersymmetric equilibrated thermalization virtuality superfluid
-% LocalWords:  superfluidity quasiparticles chromodynamics UrQMD renormalized
-% LocalWords:  deconfinement Debye Rajagopal sPHENIX WHDG TeV sQGP dijet
